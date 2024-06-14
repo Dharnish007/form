@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AWS Quiz</h1>
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. Which AWS service is commonly used for hosting static websites?</p>
+                <label><input type="radio" name="q1" value="A"> A. Amazon EC2</label>
+                <label><input type="radio" name="q1" value="B"> B. Amazon S3</label>
+                <label><input type="radio" name="q1" value="C"> C. AWS Lambda</label>
+                <label><input type="radio" name="q1" value="D"> D. Amazon RDS</label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. How does AWS WAF protect against web attacks?</p>
+                <label><input type="radio" name="q2" value="A"> A. By encrypting data in transit</label>
+                <label><input type="radio" name="q2" value="B"> B. By monitoring network traffic</label>
+                <label><input type="radio" name="q2" value="C"> C. By providing DDoS protection</label>
+                <label><input type="radio" name="q2" value="D"> D. By filtering and monitoring web traffic</label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. What is the primary benefit of elasticity in the AWS Cloud?</p>
+                <label><input type="radio" name="q3" value="A"> A. Cost optimization</label>
+                <label><input type="radio" name="q3" value="B"> B. Enhanced security</label>
+                <label><input type="radio" name="q3" value="C"> C. Optimized CPU capacity</label>
+                <label><input type="radio" name="q3" value="D"> D. Automatic resource adjustment based on demand</label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Which AWS service is typically used for analyzing large amounts of data stored in an Amazon S3 data lake?</p>
+                <label><input type="radio" name="q4" value="A"> A. Amazon Redshift</label>
+                <label><input type="radio" name="q4" value="B"> B. Amazon Aurora</label>
+                <label><input type="radio" name="q4" value="C"> C. Amazon DynamoDB</label>
+                <label><input type="radio" name="q4" value="D"> D. Amazon RDS</label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. How does AWS Budgets assist in cost tracking?</p>
+                <label><input type="radio" name="q5" value="A"> A. By providing real-time cost analysis</label>
+                <label><input type="radio" name="q5" value="B"> B. By offering free credits for new users</label>
+                <label><input type="radio" name="q5" value="C"> C. By sending event-driven alerts</label>
+                <label><input type="radio" name="q5" value="D"> D. By automating resource provisioning</label>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. What functionality do security groups in AWS provide for Amazon EC2 instances?</p>
+                <label><input type="radio" name="q6" value="A"> A. Load balancing</label>
+                <label><input type="radio" name="q6" value="B"> B. Firewall rules</label>
+                <label><input type="radio" name="q6" value="C"> C. Data encryption</label>
+                <label><input type="radio" name="q6" value="D"> D. Database management</label>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <p>7. How can Amazon Route 53 be utilized for DNS failover routing?</p>
+                <label><input type="radio" name="q7" value="A"> A. By setting up VPN connections</label>
+                <label><input type="radio" name="q7" value="B"> B. By configuring load balancers</label>
+                <label><input type="radio" name="q7" value="C"> C. By using health checks</label>
+                <label><input type="radio" name="q7" value="D"> D. By enabling multi-factor authentication</label>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <p>8. What are the key benefits of using Amazon S3 for hosting websites?</p>
+                <label><input type="radio" name="q8" value="A"> A. High availability and reliability</label>
+                <label><input type="radio" name="q8" value="B"> B. Real-time data analytics</label>
+                <label><input type="radio" name="q8" value="C"> C. Serverless architecture</label>
+                <label><input type="radio" name="q8" value="D"> D. Machine learning capabilities</label>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <p>9. Explain the role of Amazon Redshift in data analysis within an Amazon S3 data lake.</p>
+                <label><input type="radio" name="q9" value="A"> A. Data encryption</label>
+                <label><input type="radio" name="q9" value="B"> B. Real-time data processing</label>
+                <label><input type="radio" name="q9" value="C"> C. Querying and analytics</label>
+                <label><input type="radio" name="q9" value="D"> D. File storage and retrieval</label>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <p>10. How can AWS WAF be configured to provide protection against web attacks?</p>
+                <label><input type="radio" name="q10" value="A"> A. By setting up VPN tunnels</label>
+                <label><input type="radio" name="q10" value="B"> B. By configuring firewall rules</label>
+                <label><input type="radio" name="q10" value="C"> C. By filtering and blocking malicious traffic</label>
+                <label><input type="radio" name="q10" value="D"> D. By enabling multi-factor authentication</label>
+            </div>
+
+            <!-- Question 11 -->
+            <div class="question">
+                <p>11. Which AWS service is commonly used for real-time data analytics?</p>
+                <label><input type="radio" name="q11" value="A"> A. Amazon S3</label>
+                <label><input type="radio" name="q11" value="B"> B. Amazon Redshift</label>
+                <label><input type="radio" name="q11" value="C"> C. Amazon Athena</label>
+                <label><input type="radio" name="q11" value="D"> D. Amazon CloudFront</label>
+            </div>
+
+            <!-- Question 12 -->
+            <div class="question">
+                <p>12. What is the primary benefit of using AWS Lambda for serverless computing?</p>
+                <label><input type="radio" name="q12" value="A"> A. Cost optimization</label>
+                <label><input type="radio" name="q12" value="B"> B. Scalability</label>
+                <label><input type="radio" name="q12" value="C"> C. Real-time data processing</label>
+                <label><input type="radio" name="q12" value="D"> D. Automated resource provisioning</label>
+            </div>
+
+            <!-- Question 13 -->
+            <div class="question">
+                <p>13. How does Amazon Route 53 enhance the availability of web applications?</p>
+                <label><input type="radio" name="q13" value="A"> A. By providing DDoS protection</label>
+                <label><input type="radio" name="q13" value="B"> B. By enabling multi-factor authentication</label>
+                <label><input type="radio" name="q13" value="C"> C. By offering global DNS services</label>
+                <label><input type="radio" name="q13" value="D"> D. By encrypting data in transit</label>
+            </div>
+
+            <!-- Question 14 -->
+            <div class="question">
+                <p>14. What is the main advantage of using Amazon Aurora for database management?</p>
+                <label><input type="radio" name="q14" value="A"> A. High availability and durability</label>
+                <label><input type="radio" name="q14" value="B"> B. Real-time data analytics</label>
+                <label><input type="radio" name="q14" value="C"> C. Serverless architecture</label>
+                <label><input type="radio" name="q14" value="D"> D. Machine learning capabilities</label>
+            </div>
+
+            <!-- Question 15 -->
+            <div class="question">
+                <p>15. How does Amazon CloudFront improve the performance of web applications?</p>
+                <label><input type="radio" name="q15" value="A"> A. By optimizing CPU capacity</label>
+                <label><input type="radio" name="q15" value="B"> B. By providing real-time data analytics</label>
+                <label><input type="radio" name="q15" value="C"> C. By caching content at edge locations</label>
+                <label><input type="radio" name="q15" value="D"> D. By automating resource provisioning</label>
+            </div>
+
+            <!-- Question 16 -->
+            <div class="question">
+                <p>16. Which AWS service is commonly used for data warehousing?</p>
+                <label><input type="radio" name="q16" value="A"> A. Amazon S3</label>
+                <label><input type="radio" name="q16" value="B"> B. Amazon Redshift</label>
+                <label><input type="radio" name="q16" value="C"> C. Amazon DynamoDB</label>
+                <label><input type="radio" name="q16" value="D"> D. Amazon RDS</label>
+            </div>
+
+            <!-- Question 17 -->
+            <div class="question">
+                <p>17. What is the primary benefit of using Amazon VPC for network isolation?</p>
+                <label><input type="radio" name="q17" value="A"> A. Enhanced security</label>
+                <label><input type="radio" name="q17" value="B"> B. Cost optimization</label>
+                <label><input type="radio" name="q17" value="C"> C. Real-time data processing</label>
+                <label><input type="radio" name="q17" value="D"> D. Automated resource provisioning</label>
+            </div>
+
+            <!-- Question 18 -->
+            <div class="question">
+                <p>18. How does AWS Shield protect against DDoS attacks?</p>
+                <label><input type="radio" name="q18" value="A"> A. By monitoring network traffic</label>
+                <label><input type="radio" name="q18" value="B"> B. By providing real-time data analytics</label>
+                <label><input type="radio" name="q18" value="C"> C. By filtering and blocking malicious traffic</label>
+                <label><input type="radio" name="q18" value="D"> D. By encrypting data in transit</label>
+            </div>
+
+            <!-- Question 19 -->
+            <div class="question">
+                <p>19. What is the main advantage of using Amazon ECS for container management?</p>
+                <label><input type="radio" name="q19" value="A"> A. High availability and reliability</label>
+                <label><input type="radio" name="q19" value="B"> B. Real-time data processing</label>
+                <label><input type="radio" name="q19" value="C"> C. Scalability</label>
+                <label><input type="radio" name="q19" value="D"> D. Automated resource provisioning</label>
+            </div>
+
+            <!-- Question 20 -->
+            <div class="question">
+                <p>20. How can AWS CloudTrail assist in monitoring and auditing AWS resources?</p>
+                <label><input type="radio" name="q20" value="A"> A. By providing real-time cost analysis</label>
+                <label><input type="radio" name="q20" value="B"> B. By sending event-driven alerts</label>
+                <label><input type="radio" name="q20" value="C"> C. By tracking user activity and API usage</label>
+                <label><input type="radio" name="q20" value="D"> D. By automating resource provisioning</label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
