@@ -2,26 +2,26 @@ document.getElementById('quizForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
     const answers = {
-        q1: 'B',
-        q2: 'D',
-        q3: 'D',
+        q1: 'A',
+        q2: 'A',
+        q3: 'A',
         q4: 'A',
-        q5: 'C',
-        q6: 'B',
-        q7: 'C',
+        q5: 'A',
+        q6: 'A',
+        q7: 'A',
         q8: 'A',
-        q9: 'C',
-        q10: 'C',
-        q11: 'C',
-        q12: 'B',
-        q13: 'C',
+        q9: 'A',
+        q10: 'A',
+        q11: 'A',
+        q12: 'A',
+        q13: 'A',
         q14: 'A',
-        q15: 'C',
-        q16: 'B',
+        q15: 'A',
+        q16: 'A',
         q17: 'A',
-        q18: 'C',
-        q19: 'C',
-        q20: 'C'
+        q18: 'A',
+        q19: 'A',
+        q20: 'A'
     };
 
     let score = 0;
